@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+
+* {
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(32, 47, 105);
+}
+#corborda{
+    color: gray;
+}
+.fa-pencil{
+    padding-left: 20%;
+    color: orange;
+}
+.fa-trash{
+    
+    padding-left: 20%;
+    color: red;
+}
+.txt{
+    color: black
+}
+#buttons{
+    color: white;
+    background-color: rgb(16, 82, 148);
+    border-radius: 10px;
+    border: solid;
+}
+.fa-plus{
+    color: white;
+}
