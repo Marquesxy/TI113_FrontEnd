@@ -10,7 +10,7 @@
     background-color: rgb(56, 52, 53);
 }
 
-#quadrado {
+.quadrado {
     background-color: rgb(255, 255, 255);
     width: 190px;
     height: 170px;
@@ -36,14 +36,38 @@ input {
 }
 .fa-circle{
     color: rgb(0, 0, 0);
+    padding: 3px;
 }
-h3,p, h4 {
+h3,p{
     text-align: left;
     color: white;
+}
+h4 {
+    text-align: left;
+    color: white;
+    background-color: rgb(56, 52, 53);
 }
 #tamanho{
     margin-top: 10px;
 }
 h2{
     margin: 10px;
+}
+.SemTR{
+    background-color:  rgb(107, 107, 107);    
+}
+#p{
+    background-color: white;
+    color: rgb(56, 52, 53);
+}
+.quadradinhonho{
+    background-color: rgb(255, 255, 255);
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+footer{
+    color: white;
+    background-color: rgb(107, 107, 107);
+    padding: 3px;
 }
