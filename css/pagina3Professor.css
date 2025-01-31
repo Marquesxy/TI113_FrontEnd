@@ -35,14 +35,69 @@ tr.linDestaque {
 }
 
 #quadrados>.quadradinho {
+    align-items: center;
     display: inline-block;
     width: 120px;
     height: 120px;
     margin: 5px;
-    border: 1px solid black;
+    background-color: white;
 }
 td.corTabela{
     background-color: rgb(107, 107, 107);
-        text-align: left;
-        color: white;
+    text-align: left;
+    color: white;
 }
+h2{
+    color: white;
+    background-color: #444;
+    padding: 13px;
+}
+.maisArtigos{
+    text-align: center;
+    width: 80%;
+    padding: 4px;
+    margin: 20px;
+    color: white;
+    background-color: #444;
+}
+#ProgramaSpan,
+#websiteSpan{
+    background-color: #666;
+    color: white;
+}
+#ProgramaSpan ul>li,  
+#websiteSpan ul>li{
+    color: rgb(0, 0, 0);
+}
+#ProgramaSpan ul>li span, 
+#websiteSpan ul>li span{
+    color: rgb(255, 255, 255);
+}
+.VerticalTotal{
+    background-color: #666;
+}
+.VerticalBranco{
+    text-align: left;
+    font-size: 13px;
+    width: 60%;
+    padding: 15%;
+    margin: 5%;
+    background-color: #ffffff;
+    color: black;
+}
+
+#VerticalSpan ul>li{
+    color: rgb(0, 0, 0);
+}
+.btnLeiaMais{
+    margin: 10px;
+    float: right;
+}
+footer{
+    color: white;
+    background-color: rgb(107, 107, 107);
+    padding: 3px;
+}
+/* .spano{
+    background-color: #8b3a3a;
+} */

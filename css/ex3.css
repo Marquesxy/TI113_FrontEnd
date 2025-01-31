@@ -1,0 +1,154 @@
+@import url(reset.css);
+
+*{
+    border-radius: 5px;
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+    header {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    nav {
+        width: 100vw;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+
+    a {
+        padding: 5px;
+        margin: 1px 0;
+        text-align: center;
+        color: white;
+        background-color: rgb(74, 159, 199);
+    }
+
+    article,
+    footer {
+        padding: 5px;
+        margin: 5px 0;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        color: white;
+        background-color: rgb(74, 159, 199);
+    }
+
+    img {
+        width: 100vw;
+        height: auto;
+    }
+}
+
+
+
+/*Tablet  */
+@media only screen and (min-width: 768px) {
+    header {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    nav {
+        width: 100vw;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    a {
+        padding: 5px;
+        margin: 1px 0;
+        text-align: center;
+        color: white;
+        background-color: rgb(74, 159, 199);
+    }
+
+    article {
+        width: 25vw;
+        color: white;
+        background-color: rgb(74, 159, 199);
+        margin: 1vw ;
+        padding: 5px ;
+    }
+
+    img {
+        width: 100vw;
+        height: auto;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    footer {
+        padding: 5px;
+        margin: 5px 0;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        color: white;
+        background-color: rgb(74, 159, 199);
+    }
+}
+
+
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+    header {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    nav {
+        width: 100vw;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    a {
+        padding: 5px;
+        margin: 1px 0px;
+        text-align: center;
+        color: white;
+        background-color: rgb(177, 27, 119);
+    }
+
+    article {
+        width: 25vw;
+        color: white;
+        background-color: rgb(74, 159, 199);
+        margin: 1vw ;
+        padding: 5px ;
+    }
+
+    img {
+        width: 100vw;
+        height: auto;
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    footer {
+        padding: 5px;
+        margin: 5px 5px;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        color: white;
+        background-color: rgb(74, 159, 199);
+    }
+}
