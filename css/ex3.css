@@ -1,6 +1,6 @@
 @import url(reset.css);
 
-*{
+* {
     border-radius: 5px;
 }
 
@@ -69,18 +69,11 @@
         color: white;
         background-color: rgb(74, 159, 199);
     }
-
-    article {
-        width: 25vw;
-        color: white;
-        background-color: rgb(74, 159, 199);
-        margin: 1vw ;
-        padding: 5px ;
-    }
-
     img {
+        display: flex;
+        justify-content: center;
         width: 100vw;
-        height: auto;
+        margin: 10px;
     }
 
     main {
@@ -88,6 +81,22 @@
         flex-direction: row;
         flex-wrap: nowrap;
     }
+    section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    article {
+        width: 22vw;
+        color: white;
+        background-color: rgb(74, 159, 199);
+        margin: 1vw;
+        padding: 5px;
+    }
+
+
+
     footer {
         padding: 5px;
         margin: 5px 0;
@@ -121,27 +130,33 @@
         margin: 1px 0px;
         text-align: center;
         color: white;
-        background-color: rgb(177, 27, 119);
+        background-color: #4a9fc7;
     }
 
+    section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
     article {
-        width: 25vw;
+        width: 50vw;
         color: white;
-        background-color: rgb(74, 159, 199);
-        margin: 1vw ;
-        padding: 5px ;
+        background-color: #4a9fc7;
     }
 
     img {
-        width: 100vw;
+        width: 98vw;
         height: auto;
     }
 
     main {
         display: flex;
-        flex-wrap: wrap;
-
+        justify-content: center;
+        flex-wrap: nowrap;
     }
+
     footer {
         padding: 5px;
         margin: 5px 5px;
