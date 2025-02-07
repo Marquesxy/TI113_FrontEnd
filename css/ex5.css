@@ -1,0 +1,17 @@
+@import url(/css/reset.css);
+
+main{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+#ManipulandoIMG {
+    width: 100%;
+    display: flex
+    
+}
+
+#loginPosition{
+    width: 50%;
+    
+}
