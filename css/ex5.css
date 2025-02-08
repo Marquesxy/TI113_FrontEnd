@@ -1,17 +1,65 @@
 @import url(/css/reset.css);
 
-main{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
     display: flex;
     width: 100%;
     align-items: center;
 }
+
 #ManipulandoIMG {
-    width: 100%;
-    display: flex
-    
+    width: 50vw;
+    border-radius: 10px;
 }
 
-#loginPosition{
-    width: 50%;
-    
+#loginPosition {
+    margin: 50px;
+    width: 100vw;
+    display: flex;
+}
+
+.input-box input {
+    background-color: aqua;
+    padding: 8px;
+    width: 28vw;
+    border: solid 1px gray;
+    border-radius: 20px;
+}
+
+#btnBlue {
+    border-radius: 20px;
+    padding: 10px;
+    width: 30vw;
+    color: white;
+    background-color: #117afa;
+    border: solid 0;
+}
+
+#btnTranparente a {
+    border: 0;
+    padding: 10px;
+    width: 30vw;
+    color: #117afa;
+}
+
+#btnLoginGoogle{
+    border-radius: 20px;
+    padding: 10px;
+    width: 30vw;
+    color: white;
+    background-color: #e8423c;
+    border: solid 0;
+}
+#btnLoginFace{
+    border-radius: 20px;
+    padding: 10px;
+    width: 30vw;
+    color: white;
+    background-color: #3b5994;
+    border: solid 0;
 }
